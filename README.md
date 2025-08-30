@@ -76,8 +76,6 @@ source .venv/bin/activate
 .venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
-# Set up OpenAI API key in .env file
-OPENAI_API_KEY=your_openai_api_key_here
 #Run the dashboard
 streamlit run app.py
 
